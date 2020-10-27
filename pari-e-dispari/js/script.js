@@ -47,10 +47,10 @@ document.getElementById('pariDispari').innerHTML = "La somma dei numeri è: " + 
   //chi ha vinto????
 if (scommessa === risultato) {
  console.log("Hai vinto!");
- document.getElementById('vincitore').innerHTML = "Hai vinto!!";
+ document.getElementById('vincitore').innerHTML = "Hai vinto!! &#128527;";
 } else {
   console.log("Hai perso!");
-  document.getElementById('vincitore').innerHTML = "Hai perso!! Ritenta";
+  document.getElementById('vincitore').innerHTML = "Hai perso!! &#128547; Ricarica la pagina e ritenta";
 };
 
   //funzioni pari o dispari
